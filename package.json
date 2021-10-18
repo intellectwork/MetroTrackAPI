@@ -15,7 +15,7 @@
     "sequelize",
     "rest api"
   ],
-  "author": "bezkoder",
+  "author": "Intellectwork",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
