@@ -4,7 +4,7 @@ module.exports = app => {
   var router = require("express").Router();
 
   // Create a new tracker
-  router.post("/", tracker.create);
+  router.post("/create", tracker.create);
 
   // Retrieve all trackers
   router.get("/", tracker.findAll);
