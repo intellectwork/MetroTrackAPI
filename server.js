@@ -36,6 +36,7 @@ app.get("/", (req, res) => {
 
 require("./app/routes/trackerconf.routes")(app);
 require("./app/routes/tracker.routes")(app);
+require("./app/routes/trip.routes")(app);
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

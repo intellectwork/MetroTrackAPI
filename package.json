@@ -20,6 +20,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mssql": "^7.2.1",
+    "react-native-mssql": "^0.1.4",
     "sequelize": "^6.6.5",
     "tedious": "^11.4.0"
   }

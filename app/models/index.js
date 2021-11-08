@@ -21,5 +21,4 @@ db.sequelize = sequelize;
 
 db.trackerconf = require("./trackerconf.model.js")(sequelize, Sequelize);
 db.tracker = require("./tracker.model.js")(sequelize, Sequelize);
-
 module.exports = db;
